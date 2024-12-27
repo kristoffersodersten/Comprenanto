@@ -1,0 +1,60 @@
+:root {
+  /* Färgpalett för ett sobert och exklusivt intryck */
+  --bg-color: #2c2c2c;        /* Mörkgrå bakgrund */
+  --text-color: #f8f5f0;      /* Gräddvit text */
+  --accent-color: #d1c7b7;    /* Neutralt accentfärg (valfritt) */
+  --button-bg: #4f4f4f;       /* Mörkare knappbakgrund */
+  --button-text: #f8f5f0;     /* Gräddvit knapptext */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1, h2 {
+  margin-bottom: 16px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  padding: 12px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.result-section,
+.translation-section {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-top: 10px;
+  white-space: pre-wrap;
+} 

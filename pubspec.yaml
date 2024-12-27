@@ -1,0 +1,22 @@
+name: comprenanto
+dependencies:
+  # ...existing code...
+  connectivity_plus: ^6.1.1
+  firebase_analytics: ^11.3.6
+  flutter_secure_storage: ^9.2.2
+  flutter_stripe: ^11.3.0
+  flutter_svg: ^2.0.16
+  get_it: ^8.0.3
+  go_router: ^14.6.2
+  google_fonts: ^6.2.1
+  package_info_plus: ^8.1.2
+  sentry_flutter: ^8.12.0
+  # ...existing code...
+
+environment:
+  sdk: '^3.6.0'
+
+dev_dependencies:
+  # ...existing code...
+  flutter_lints: ^5.0.0
+  # ...existing code...
